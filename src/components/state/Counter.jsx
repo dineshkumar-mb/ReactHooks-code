@@ -14,7 +14,7 @@ function Counter() {
   useEffect(()=>{
     console.log("component mounted");
     
-  })
+  },[]);
   return (
     <>
     <h1>Counter-useEffect:{count}</h1>
